@@ -8,8 +8,8 @@ pipeline {
 
         AWS_S3_BUCKET = "mvnpeman101"
         ARTIFACT_NAME = "hello-world.jar"
-        AWS_EB_APP_NAME = "mvn-app"
-        AWS_EB_ENVIRONMENT = "Mvnapp0-env"
+        AWS_EB_APP_NAME = "eman-app"
+        AWS_EB_ENVIRONMENT = "Emanapp-env"
 		AWS_EB_APP_VERSION = "${BUILD_ID}"
                
     }
